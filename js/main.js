@@ -131,12 +131,6 @@ window.TA = (function(){
       title: 'Xiaomi 17T chega ao Brasil: vale a pena comprar?',
       excerpt: 'O intermediário da Xiaomi promete equilíbrio entre preço e desempenho. Fomos testar se ele realmente entrega o que promete no dia a dia.',
       date: '15 ago 2026', dateSort: 20260815, readtime: '5 min de leitura', isNew: false
-    },
-    {
-      href: 'artigos/robos-corrida-china-2026.html', category: 'Notícias', icon: 'news',
-      title: 'Robôs mais rápidos que Usain Bolt? Corrida na China impressiona o mundo',
-      excerpt: 'Nos Jogos Mundiais de Robôs Humanoides de 2026, em Pequim, o robô Tiangong Ultra completou os 100 metros em 9,39s — mais rápido que o recorde de Usain Bolt.',
-      date: '25 ago 2026', dateSort: 20260825, readtime: '10 min de leitura', isNew: true
     }
   ];
 
@@ -144,8 +138,7 @@ window.TA = (function(){
     phone: '<rect x="7" y="2" width="10" height="20" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M11 19h2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>',
     laptop: '<rect x="3" y="5" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 21h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>',
     headphones: '<path d="M4 15a8 8 0 0116 0M2 15h20M12 15v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>',
-    home: '<path d="M3 11l9-7 9 7M5 10v10h14V10" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>',
-    news: '<path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>'
+    home: '<path d="M3 11l9-7 9 7M5 10v10h14V10" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>'
   };
 
   const PER_PAGE = 5;
